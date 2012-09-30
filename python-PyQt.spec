@@ -1,13 +1,13 @@
 %define		module	PyQt
-#
+
 Summary:	Python bindings for the Qt toolkit
 Name:		python-%{module}
-Version:	4.9.4
+Version:	4.9.5
 Release:	1
 License:	GPL v2
 Group:		Libraries/Python
-Source0:	http://www.riverbankcomputing.com/static/Downloads/PyQt4/PyQt-x11-gpl-%{version}.tar.gz
-# Source0-md5:	a0b6a820633366365af5124ddbd059c7
+Source0:	http://downloads.sourceforge.net/pyqt/PyQt-x11-gpl-%{version}.tar.gz
+# Source0-md5:	e4cdd6619c63655f7510efb4df8462fb
 URL:		http://www.riverbankcomputing.co.uk/pyqt/index.php
 BuildRequires:	QtDBus-devel
 BuildRequires:	QtDesigner-devel
