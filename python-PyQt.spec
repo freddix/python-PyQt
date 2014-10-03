@@ -2,12 +2,12 @@
 
 Summary:	Python bindings for the Qt toolkit
 Name:		python-%{module}
-Version:	4.9.5
+Version:	4.11.2
 Release:	1
 License:	GPL v2
 Group:		Libraries/Python
 Source0:	http://downloads.sourceforge.net/pyqt/PyQt-x11-gpl-%{version}.tar.gz
-# Source0-md5:	e4cdd6619c63655f7510efb4df8462fb
+# Source0-md5:	6bbb57f6874701adfc6909702f4a4b02
 URL:		http://www.riverbankcomputing.co.uk/pyqt/index.php
 BuildRequires:	QtDBus-devel
 BuildRequires:	QtDesigner-devel
